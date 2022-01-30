@@ -449,15 +449,15 @@ i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 60px;
+  height: 80px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .header .top-header .th .logo {
-  width: 5rem;
-  height: 5rem;
+  width:5rem;
+  height: 100%;
   margin-left: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -478,6 +478,7 @@ i {
 .header .top-header .th .name {
   margin-left: 0.5rem;
   font-size: 1.8rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 600;
   color: #000;
   display: -webkit-box;
@@ -1080,6 +1081,7 @@ section .container .cate-slider .category-Item {
 
 section .container .cate-slider .category-Item .cate-img {
   width: 50px;
+  height: 40px;
   text-align: center;
   display: inline-block;
 }
@@ -1095,6 +1097,7 @@ section .container .cate-slider .category-Item h4 {
 section .container .product-slider .productBox {
   width: 100%;
   display: block;
+  height: 540px;
   background: #fff;
   border-radius: 3px;
   text-align: center;
@@ -1134,7 +1137,7 @@ section .container .product-slider .productBox .product-image .topOption .wishli
   cursor: pointer;
   background-color: rgba(246, 151, 51, 0.2);
   display: block;
-  height: 35px;
+  height: 50px;
   width: 35px;
   line-height: 37px;
   border-radius: 30px;
@@ -1146,8 +1149,9 @@ section .container .product-slider .productBox .product-detail p {
   font-size: 12px;
   font-weight: 500;
   color: #8f91ac;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   line-height: 24px;
+  
 }
 
 section .container .product-slider .productBox .product-detail h4 {
@@ -5046,6 +5050,7 @@ section .container .product-slider .owl-nav .owl-prev {
 
 .view-product .searchrow .right .outerbox {
   display: -ms-grid;
+  padding-left : 20px;
   display: grid;
   -ms-grid-columns: auto auto auto auto;
       grid-template-columns: auto auto auto auto;
