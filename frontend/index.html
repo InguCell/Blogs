@@ -9,6 +9,7 @@
       href="assets/images/logo.png"
       type="image/x-icon"
     />
+    <script src="jquery-2.1.4.js"></script>
     <title>Welcome To Prime Mall</title>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/sweetalert.js"></script>
@@ -21,6 +22,15 @@
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
   </head>
   <body>
+
+    <div class="content">
+     
+    </div>
+    <div class="loader-wrapper">
+      <h1 class="ani" style="color:white; letter-spacing: 1px; font-size:40px;"><span style="color: papayawhip;">Welcome to</span><span style="color: rgb(230, 190, 117);"> SortedGlobal</span></h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
     <div class="responsive-search" id="rss">
       <div class="closediv">
         <i class="uil uil-times" onclick="closerss()"></i>
@@ -993,6 +1003,10 @@
           },
         },
       });
+
+      $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut(3000);
+        });
     </script>
   </body>
 </html>
