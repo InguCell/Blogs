@@ -38,7 +38,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #242f3f;
+  background:linear-gradient(#463117,#6d5537,#947a5b, #ad9679, #c7b5a0, #e0d4c5, #ebe2d9);
+  opacity: 0.96;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -50,15 +51,15 @@ body {
   position: relative;
   border: 4px solid #Fff;
   animation: loader 2s infinite ease;
- 
+  
 }
 .loader-inner {
   vertical-align: top;
   display: inline-block;
   width: 100%;
   background-color: #fff;
-  animation: loader-inner 100s infinite ease-in;
-  animation-duration: 3s;
+  animation: loader-inner 2s infinite ease-in;
+ 
   
 }
 @keyframes loader {
